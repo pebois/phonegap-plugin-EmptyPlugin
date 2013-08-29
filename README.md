@@ -3,6 +3,12 @@ phonegap-plugin-EmptyPlugin
 
 Phonegap empty plugin
 
+## Platforms ##
+
+* IOS
+
+## Using the plugin ##
+
 ### test ###
 ```
 EmptyPlugin.test({message: "hello world"}, function (msg) {
