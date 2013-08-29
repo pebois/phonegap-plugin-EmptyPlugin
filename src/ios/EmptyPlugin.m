@@ -13,7 +13,7 @@
 - (void)test:(CDVInvokedUrlCommand*)command
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        nsdictionary* args = [command.arguments objectAtIndex:0];
+        NSDictionary* args = [command.arguments objectAtIndex:0];
         if (args != nil && [args count] > 0) {
             CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:[args objectForKey:@"message"]];
             [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
