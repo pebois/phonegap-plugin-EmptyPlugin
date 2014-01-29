@@ -9,7 +9,7 @@
   <description>Phonegap empty plugin</description>
   <author>Pierre-Emmanuel Bois</author>
   <email>pebois@kernix.com</email>
-  <license>Apache 2.0 License</license>
+  <license>MIT</license>
   <js-module src="www/emptyplugin.js" name="EmptyPlugin">
     <clobbers target="EmptyPlugin" />
   </js-module>
