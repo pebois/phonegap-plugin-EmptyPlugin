@@ -10,7 +10,7 @@ Phonegap empty plugin
 ## Using the plugin ##
 
 ### test ###
-```
+```js
 EmptyPlugin.test({message: "hello world"}, function (msg) {
     console.log(msg);
 });
